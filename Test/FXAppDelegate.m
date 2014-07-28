@@ -17,7 +17,7 @@
 {
     NSString *str = [@"👏" substringToIndex:1];
     
-//    NSLog(@"!!!!%d,%@",[str length],str);
+    NSLog(@"!!!!%d,%@",[str length],str);
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     TableViewController *controller = [[TableViewController alloc] initWithStyle:UITableViewStyleGrouped];
