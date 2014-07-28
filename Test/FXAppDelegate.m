@@ -7,13 +7,22 @@
 //
 
 #import "FXAppDelegate.h"
+#import "Test.h"
+#import "ViewController.h"
+#import "TableViewController.h"
 
 @implementation FXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSString *str = [@"👏" substringToIndex:1];
+    
+//    NSLog(@"!!!!%d,%@",[str length],str);
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TableViewController *controller = [[TableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
