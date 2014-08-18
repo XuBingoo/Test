@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  FXViewController.h
 //  Test
 //
-//  Created by 徐宝桥 on 14-6-4.
+//  Created by 徐宝桥 on 14-8-11.
 //  Copyright (c) 2014年 ___MyCompanyName___. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FXViewController : UIViewController
 
 @end

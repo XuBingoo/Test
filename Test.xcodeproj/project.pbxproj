@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		77204C96194EDB70001119D3 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77204C95194EDB70001119D3 /* View.xib */; };
-		7724B74B193ED2E000C3304F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7724B74A193ED2E000C3304F /* ViewController.m */; };
 		7724B74E193ED37600C3304F /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 7724B74D193ED37600C3304F /* View.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7724B750193ED42D00C3304F /* p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7724B74F193ED42D00C3304F /* p@2x.png */; };
+		772E845319988B620078CEF8 /* FXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E845219988B620078CEF8 /* FXViewController.m */; };
 		77CB6F58192F6D9800936F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB6F57192F6D9800936F7F /* Foundation.framework */; };
 		77CB6F5A192F6D9800936F7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB6F59192F6D9800936F7F /* CoreGraphics.framework */; };
 		77CB6F5C192F6D9800936F7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB6F5B192F6D9800936F7F /* UIKit.framework */; };
@@ -52,11 +52,11 @@
 
 /* Begin PBXFileReference section */
 		77204C95194EDB70001119D3 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		7724B749193ED2E000C3304F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7724B74A193ED2E000C3304F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7724B74C193ED37600C3304F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		7724B74D193ED37600C3304F /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		7724B74F193ED42D00C3304F /* p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p@2x.png"; sourceTree = "<group>"; };
+		772E845119988B620078CEF8 /* FXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXViewController.h; sourceTree = "<group>"; };
+		772E845219988B620078CEF8 /* FXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXViewController.m; sourceTree = "<group>"; };
 		77CB6F54192F6D9800936F7F /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CB6F57192F6D9800936F7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77CB6F59192F6D9800936F7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,9 +175,9 @@
 				77CB6F67192F6D9800936F7F /* FXAppDelegate.m */,
 				77FF4E5B19469268003F1A73 /* TableViewController.h */,
 				77FF4E5C19469268003F1A73 /* TableViewController.m */,
-				7724B749193ED2E000C3304F /* ViewController.h */,
+				772E845119988B620078CEF8 /* FXViewController.h */,
+				772E845219988B620078CEF8 /* FXViewController.m */,
 				77204C95194EDB70001119D3 /* View.xib */,
-				7724B74A193ED2E000C3304F /* ViewController.m */,
 				7724B74C193ED37600C3304F /* View.h */,
 				7724B74D193ED37600C3304F /* View.m */,
 				77CB6FA7192F6E1300936F7F /* Test.h */,
@@ -354,7 +354,6 @@
 				77CB6FA6192F6DD100936F7F /* Reachability.m in Sources */,
 				77CB6F9E192F6DD100936F7F /* ASIAuthenticationDialog.m in Sources */,
 				77CB6FA5192F6DD100936F7F /* ASINetworkQueue.m in Sources */,
-				7724B74B193ED2E000C3304F /* ViewController.m in Sources */,
 				77CB6FA1192F6DD100936F7F /* ASIDownloadCache.m in Sources */,
 				77CB6FA4192F6DD100936F7F /* ASIInputStream.m in Sources */,
 				77CB6F9F192F6DD100936F7F /* ASIDataCompressor.m in Sources */,
@@ -362,6 +361,7 @@
 				77CB6F64192F6D9800936F7F /* main.m in Sources */,
 				77FF4E5D19469268003F1A73 /* TableViewController.m in Sources */,
 				77CB6FA0192F6DD100936F7F /* ASIDataDecompressor.m in Sources */,
+				772E845319988B620078CEF8 /* FXViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
